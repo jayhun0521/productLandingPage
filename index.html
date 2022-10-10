@@ -11,9 +11,24 @@
 
     <title>Twister Water Bottle</title>
   </head>
-  <body style="background-color: rgb(12, 12, 75);">
-   <p class="text-center">
-      <div class=".container-fluid p-3 my-3 bg-dark text-white">
+   <body style="background-color: rgb(12, 12, 75);">
+    <nav class="navbar navbar-expand-sm bg-info navbar-inverse" >
+        <div class="container" style="background-color: rgb(12, 12, 75);">
+            <button class="navbar-toggler bg-primary" data-toggle="collapse" data-target="#mainNav">
+                <span class="navbar-toggler-icon" ></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="mainNav">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-item nav-link text-white active">Home</a>
+                    <a href="#" class="nav-item nav-link text-white">About</a>
+                    <a href="#" class="nav-item nav-link text-white">Order</a>
+                    <a href="#" class="nav-item nav-link text-white">Contact</a>
+                </div>    
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid text-white text-center" style="background-color:rgb(12, 12, 75)">
         <div class="text-center">
            <h1>Twister Water Bottle</h1>
            <h2>Welcome to Twisterbottle.com!</h2>
@@ -21,24 +36,56 @@
      </div>
     </p>
 
-
+<section>
 <div class="container">
     <div class="row">
-        <div class="col-md-4">        
-            <img src="https://m.media-amazon.com/images/I/51XZTe+180L.jpg" alt="" class="resize-image center-block" style="width: 250px;">
-        <div class="col-md-4">
-            <img src="https://m.media-amazon.com/images/I/61NiYQ08gYL.jpg" alt="" class="resize-image center-block"  style="width: 250px;">
-        <div class="col-md-4">
-            <img src="https://i5.walmartimages.com/asr/fbae3571-a0bf-447c-965e-7702dfed7704_1.327a272397770852c74b32fb3e2c5f24.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="" class="resize-image center-block"  style="width: 250px;">
+        <div class="col-lg-4 ">
+            <div class="card" style="width: 18rem; height: 500px;">
+                <h3 class="card-title text-center"> Jet Blender 900</h3>
+                <img src="https://m.media-amazon.com/images/I/51XZTe+180L.jpg" alt=""
+                    class=" card-img-top resize-image center-block" style="width: 250px; height: 250px;">
+                <div class="card-body">
+                    <p>The best blender bottle on the market</p><button class="button my-4" type="botton" id="button" onclick="createParagraph()">Order Now</button>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
-    </header>
-<div>
-    <button class="button" type="botton" id="button" onclick="createParagraph()">Order Now
-</div>
-    
-<div class="card" style="width: 100%;">
+
+
+                    <div class="col-lg-4 ">
+                        <div class="card" style="width: 18rem; height: 500px;">
+                                <h3 class="card-title text-center"> Jet Blender 1000</h3>
+                                <img src="https://m.media-amazon.com/images/I/61NiYQ08gYL.jpg" alt=""
+                                    class="card-img-top resize-image center-block img-fluid center-block" style="width: 150px; height: 250px;">
+                                <div class="card-body">
+                                    <p>The best blender bottle on the market</p>
+                                    <button class="button my-4" type="botton" id="button" onclick="createParagraph()">Order Now</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                                <div class="card" style="width: 18rem; height: 100px;">
+                                       <h3 class="card-title"> Jet Blender 800</h3>
+                                            <img src="https://i5.walmartimages.com/asr/fbae3571-a0bf-447c-965e-7702dfed7704_1.327a272397770852c74b32fb3e2c5f24.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+                                                alt="" class="card-img-top resize-image center-block" style="width: 250px; height: 250px;">
+                                                <div class="card-body">
+                                                    <p>The best blender bottle on the market</p>
+                                                  <button button class="button my-4" type="botton" id="button" onclick="createParagraph()">Order Now</button> 
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                        
+
+
+
+
+
+                    </div>
+                </div>
+
+
+<div class="card my-4" style="width: 100%; border-style: ridge;">
     <p class="card-text">
      <ul>
         <li> <strong>Materials: </strong>Made of Food grade Tritan, safe. The sturdy mixing cup and sealing ring prevent leakage, and the nead design is easy to hold and drink</li>
@@ -50,7 +97,11 @@
     </p>
 </div>
 </div> 
-    
+</div>
+</div>
+</div>   
+</div>  
+</div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
